@@ -21,7 +21,7 @@
   header.masthead {
     position: relative;
     background-color: #166abf;
-    background: url("") no-repeat center center;
+    background: url(https://github.com/grobconnolly/textjet-landingpage/blob/master/hero.jpg?raw=true) no-repeat center center;
     background-size: cover;
     padding-top: 8rem;
     padding-bottom: 8rem;
@@ -65,7 +65,10 @@
       padding: 7rem;
     }
   }
-  
+  .titleHow #titleHow{
+  float: right;
+  }
+
   .features-icons {
     padding-top: 7rem;
     padding-bottom: 7rem;
@@ -124,3 +127,15 @@
     padding-top: 4rem;
     padding-bottom: 4rem;
   }
+
+  .showcase{
+  background-image: url(spikes.png);
+  }
+
+  .backgroundWhite {
+    background-color: white;
+    border-style: solid;
+  border-width: 1px;
+  border-color: rgb(203, 203, 203);
+  }
+  
