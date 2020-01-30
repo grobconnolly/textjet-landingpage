@@ -60,6 +60,8 @@
     background-size: cover;
   }
   
+
+
   @media (min-width: 768px) {
     .showcase .showcase-text {
       padding: 7rem;
@@ -138,4 +140,28 @@
   border-width: 1px;
   border-color: rgb(203, 203, 203);
   }
-  
+
+  #mc-embedded-subscribe{
+    background-color:#137BFF;
+    margin: 0 0 0 13px;
+  }
+
+  .airplane{
+    background-color: #137BFF;
+  }
+
+  .topEmail{
+    margin-left: 14%;
+  }
+
+  .bottomEmail{
+    margin-left: 25%;
+    
+  }
+
+  @media (max-width: 768px) {
+    .topEmail {
+     margin-left: 1%;
+     
+    }
+  }
