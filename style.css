@@ -73,7 +73,7 @@
   }
 
   .features-icons {
-    padding-top: 7rem;
+    padding-top: 3rem;
     padding-bottom: 7rem;
   }
   
@@ -94,8 +94,8 @@
   }
   
   .testimonials {
-    padding-top: 7rem;
-    padding-bottom: 7rem;
+    padding-top: 3rem;
+    padding-bottom: 5rem;
   }
   
   .testimonials .testimonial-item {
@@ -116,8 +116,8 @@
     background-color: #343a40;
     background: url("../img/bg-masthead.jpg") no-repeat center center;
     background-size: cover;
-    padding-top: 7rem;
-    padding-bottom: 7rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
   }
   .textjetTab {
     padding-top: 3%;
@@ -143,6 +143,9 @@
   .loyaltyPath {
     margin-top: 2%;
     text-align: center;
+  }
+  .loyaltyPathTop {
+    padding-bottom: -3%;
   }
 
   .showcase{
