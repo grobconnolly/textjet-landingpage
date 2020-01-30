@@ -66,6 +66,7 @@
     .showcase .showcase-text {
       padding: 7rem;
     }
+  
   }
   .titleHow #titleHow{
   float: right;
@@ -106,6 +107,10 @@
     box-shadow: 0px 5px 5px 0px #adb5bd;
   }
   
+  .blueBack {
+    background-color: rgb(213, 213, 213);
+  }
+
   .call-to-action {
     position: relative;
     background-color: #343a40;
@@ -114,7 +119,12 @@
     padding-top: 7rem;
     padding-bottom: 7rem;
   }
-  
+  .textjetTab {
+    padding-top: 3%;
+    padding-bottom: 3%;
+    width: 40%;
+  }
+
   .call-to-action .overlay {
     position: absolute;
     background-color: #212529;
@@ -130,8 +140,16 @@
     padding-bottom: 4rem;
   }
 
+  .loyaltyPath {
+    margin-top: 2%;
+    text-align: center;
+  }
+
   .showcase{
   background-image: url(spikes.png);
+  border: solid;
+  border-color: gray;
+  border-width: 1px;
   }
 
   .backgroundWhite {
@@ -162,6 +180,13 @@
   @media (max-width: 768px) {
     .topEmail {
      margin-left: 1%;
-     
-    }
+     } 
+     .textjetTab {
+      padding-top: 80px;
+      width: 70%;
+     }
+     .testHeader {
+       padding-top: 4%;
+     }
+   
   }
